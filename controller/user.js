@@ -63,7 +63,7 @@ exports.homePage = async (req, res, next) => {
     // Step 7: Render home page
     res.render('./store/home', {
       venders: registervenders,
-      title: "Vender Page",
+      title: "Restron",
       opacity: {}, // No opacity now
       currentPage: 'home',
       isLogedIn: req.isLogedIn,
