@@ -2,29 +2,33 @@
 <style>
      /* --- Search Button --- */
     #search-btn {
-        padding: 0;
-        margin-left: 8px;
-        width: 48px;
-        height: 48px;
-        background: linear-gradient(90deg, #2f409e 60%, #376cea 100%);
-        color: white;
+        padding: 10px 20px;
+        margin-left: 12px;
+        background: linear-gradient(90deg, #6bcbb8 0%, #6ae6ed 100%);
+        color: #fff;
         border: none;
-        border-radius: 50%;
-        font-size: 1.5rem;
+        border-radius: 28px;
+        font-size: 1.1rem;
+        font-weight: 600;
         cursor: pointer;
+        display: flex;
         align-items: center;
         justify-content: center;
-        box-shadow: 0 4px 16px rgba(255, 77, 79, 0.13);
-        transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+        box-shadow: 0 2px 8px rgba(0, 123, 255, 0.12);
+        transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+        outline: none;
     }
 
     #search-btn:hover {
-        background: linear-gradient(90deg, #376cea 60%, #2f409e 100%);
-        transform: scale(1.08) rotate(-3deg);
-        box-shadow: 0 8px 32px rgba(255, 183, 197, 0.18);
+        background: linear-gradient(90deg, #6ae6ed 0%, #6bcbb8 100%);
+        box-shadow: 0 4px 16px rgba(0, 123, 255, 0.18);
+        transform: translateY(-2px) scale(1.04);
     }
+
     #search-btn:active {
-        transform: scale(0.96);
+        background: #007bff;
+        box-shadow: 0 2px 8px rgba(0, 123, 255, 0.10);
+        transform: scale(0.98);
     }
     #location-dropdown .dropdown-item {
   padding: 8px 12px;
