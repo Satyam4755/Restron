@@ -199,7 +199,7 @@ exports.venderDetails = async (req, res, next) => {
 
   res.render('./store/details', {
     vender,
-    title: "vender Details",
+    title: "Item Details",
     opacity,
     isLogedIn: req.isLogedIn,
     user: req.session.user || null,
